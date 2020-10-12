@@ -1,0 +1,1236 @@
+{
+    "$schema": "../../schema/service.json",
+    "name": "Halifax—Kentville—Yarmouth",
+    "type": "train",
+    "operator": "Via Rail",
+    "stations": [
+        {
+            "distance": 0,
+            "name": "Halifax, N.S."
+        },
+        {
+            "distance": 5,
+            "name": "Armdale"
+        },
+        {
+            "distance": 10,
+            "name": "Rockingham"
+        },
+        {
+            "distance": 18,
+            "name": "Bedford"
+        },
+        {
+            "distance": 26,
+            "name": "Windsor Junction"
+        },
+        {
+            "distance": 31,
+            "name": "Beaver Bank"
+        },
+        {
+            "distance": 42,
+            "name": "South Uniacke"
+        },
+        {
+            "distance": 47,
+            "name": "Mount Uniacke"
+        },
+        {
+            "distance": 63,
+            "name": "Ellershouse"
+        },
+        {
+            "distance": 68,
+            "name": "Newport"
+        },
+        {
+            "distance": 76,
+            "name": "Windsor"
+        },
+        {
+            "distance": 87,
+            "name": "Hantsport"
+        },
+        {
+            "distance": 95,
+            "name": "Avonport"
+        },
+        {
+            "distance": 100,
+            "name": "Grand'Pré"
+        },
+        {
+            "distance": 105,
+            "name": "Wolfville"
+        },
+        {
+            "distance": 108,
+            "name": "Port Williams"
+        },
+        {
+            "distance": 116,
+            "name": "Kentville"
+        },
+        {
+            "distance": 130,
+            "name": "Waterville"
+        },
+        {
+            "distance": 135,
+            "name": "Berwick"
+        },
+        {
+            "distance": 143,
+            "name": "Aylesford"
+        },
+        {
+            "distance": 154,
+            "name": "Kingston (Greenwood)"
+        },
+        {
+            "distance": 166,
+            "name": "Middleton"
+        },
+        {
+            "distance": 175,
+            "name": "Lawrencetown"
+        },
+        {
+            "distance": 188,
+            "name": "Bridgetown"
+        },
+        {
+            "distance": 200,
+            "name": "Round Hill"
+        },
+        {
+            "distance": 209,
+            "name": "Annapolis Royal"
+        },
+        {
+            "distance": 222,
+            "name": "Clementsport"
+        },
+        {
+            "distance": 224,
+            "name": "Cornwallis"
+        },
+        {
+            "distance": 232,
+            "name": "Bear River"
+        },
+        {
+            "distance": 243,
+            "name": "Digby"
+        },
+        {
+            "distance": 259,
+            "name": "North Range"
+        },
+        {
+            "distance": 277,
+            "name": "Weymouth"
+        },
+        {
+            "distance": 291,
+            "name": "Church Point"
+        },
+        {
+            "distance": 296,
+            "name": "Saulnierville"
+        },
+        {
+            "distance": 302,
+            "name": "Meteghan"
+        },
+        {
+            "distance": 317,
+            "name": "Hectanooga"
+        },
+        {
+            "distance": 328,
+            "name": "Brazil Lake"
+        },
+        {
+            "distance": 338,
+            "name": "Ohio"
+        },
+        {
+            "distance": 348,
+            "name": "Yarmouth, N.S."
+        }
+    ],
+    "trains": [
+        {
+            "number": "153",
+            "days": [
+                "sunday"
+            ],
+            "reservation": "unreserved",
+            "services": [
+                "snack",
+                "beverages"
+            ],
+            "conditions": [
+                "no-checked-baggage"
+            ],
+            "includedDays": [
+                "09-05",
+                "10-10"
+            ],
+            "timetable": [
+                {
+                    "name": "Halifax, N.S.",
+                    "departure": "19:00:00-04:00"
+                },
+                {
+                    "name": "Armdale",
+                    "departure": "19:06:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Rockingham",
+                    "departure": "19:10:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Bedford",
+                    "departure": "19:17:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Windsor Junction",
+                    "departure": "19:40:00-04:00"
+                },
+                {
+                    "name": "Beaver Bank",
+                    "departure": "19:34:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "South Uniacke",
+                    "departure": "19:44:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Mount Uniacke",
+                    "departure": "19:48:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Ellershouse",
+                    "departure": "20:01:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Newport",
+                    "departure": "20:05:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Windsor",
+                    "departure": "20:12:00-04:00"
+                },
+                {
+                    "name": "Hantsport",
+                    "departure": "20:22:00-04:00"
+                },
+                {
+                    "name": "Avonport",
+                    "departure": "20:29:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Grand'Pré",
+                    "departure": "20:34:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Wolfville",
+                    "departure": "20:38:00-04:00"
+                },
+                {
+                    "name": "Port Williams",
+                    "departure": "20:41:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Kentville",
+                    "arrival": "20:50:00-04:00",
+                    "departure": "20:55:00-04:00"
+                },
+                {
+                    "name": "Waterville",
+                    "departure": "21:07:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Berwick",
+                    "departure": "21:11:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Aylesford",
+                    "departure": "21:17:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Kingston (Greenwood)",
+                    "departure": "21:26:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Middleton",
+                    "departure": "21:36:00-04:00"
+                },
+                {
+                    "name": "Lawrencetown",
+                    "departure": "21:44:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Bridgetown",
+                    "departure": "21:55:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Round Hill",
+                    "departure": "22:07:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Annapolis Royal",
+                    "departure": "22:18:00-04:00"
+                },
+                {
+                    "name": "Clementsport",
+                    "departure": "22:26:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Cornwallis",
+                    "departure": "22:29:00-04:00",
+                    "conditions": [
+                        "stops-on-signal",
+                        "armed-forces-only"
+                    ]
+                },
+                {
+                    "name": "Bear River",
+                    "departure": "22:37:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Digby",
+                    "departure": "22:49:00-04:00"
+                },
+                {
+                    "name": "North Range",
+                    "departure": "23:03:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Weymouth",
+                    "departure": "23:17:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Church Point",
+                    "departure": "23:29:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Saulnierville",
+                    "departure": "23:34:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Meteghan",
+                    "departure": "23:38:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Hectanooga",
+                    "departure": "23:49:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Brazil Lake",
+                    "departure": "23:58:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Ohio",
+                    "departure": "00:05:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Yarmouth, N.S.",
+                    "arrival": "00:20:00-04:00"
+                }
+            ]
+        },
+        {
+            "number": "151",
+            "days": [
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "reservation": "unreserved",
+            "services": [
+                "snack",
+                "beverages"
+            ],
+            "conditions": [
+                "no-checked-baggage"
+            ],
+            "excludedDays": [
+                "09-05",
+                "10-10"
+            ],
+            "timetable": [
+                {
+                    "name": "Halifax, N.S.",
+                    "departure": "17:30:00-04:00"
+                },
+                {
+                    "name": "Armdale",
+                    "departure": "17:36:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Rockingham",
+                    "departure": "17:40:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Bedford",
+                    "departure": "17:47:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Windsor Junction",
+                    "departure": "18:00:00-04:00"
+                },
+                {
+                    "name": "Beaver Bank",
+                    "departure": "18:04:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "South Uniacke",
+                    "departure": "18:14:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Mount Uniacke",
+                    "departure": "18:18:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Ellershouse",
+                    "departure": "18:31:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Newport",
+                    "departure": "18:35:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Windsor",
+                    "departure": "18:42:00-04:00"
+                },
+                {
+                    "name": "Hantsport",
+                    "departure": "18:52:00-04:00"
+                },
+                {
+                    "name": "Avonport",
+                    "departure": "18:59:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Grand'Pré",
+                    "departure": "19:04:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Wolfville",
+                    "departure": "19:08:00-04:00"
+                },
+                {
+                    "name": "Port Williams",
+                    "departure": "19:11:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Kentville",
+                    "arrival": "19:20:00-04:00",
+                    "departure": "19:25:00-04:00"
+                },
+                {
+                    "name": "Waterville",
+                    "departure": "19:37:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Berwick",
+                    "departure": "19:41:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Aylesford",
+                    "departure": "19:47:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Kingston (Greenwood)",
+                    "departure": "19:56:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Middleton",
+                    "departure": "20:06:00-04:00"
+                },
+                {
+                    "name": "Lawrencetown",
+                    "departure": "20:14:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Bridgetown",
+                    "departure": "20:25:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Round Hill",
+                    "departure": "20:37:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Annapolis Royal",
+                    "departure": "20:48:00-04:00"
+                },
+                {
+                    "name": "Clementsport",
+                    "departure": "20:56:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Cornwallis",
+                    "departure": "20:59:00-04:00",
+                    "conditions": [
+                        "stops-on-signal",
+                        "armed-forces-only"
+                    ]
+                },
+                {
+                    "name": "Bear River",
+                    "departure": "21:07:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Digby",
+                    "departure": "21:19:00-04:00"
+                },
+                {
+                    "name": "North Range",
+                    "departure": "21:33:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Weymouth",
+                    "departure": "21:47:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Church Point",
+                    "departure": "21:59:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Saulnierville",
+                    "departure": "22:04:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Meteghan",
+                    "departure": "22:08:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Hectanooga",
+                    "departure": "22:19:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Brazil Lake",
+                    "departure": "22:28:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Ohio",
+                    "departure": "22:35:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Yarmouth, N.S.",
+                    "arrival": "22:50:00-04:00"
+                }
+            ]
+        },
+        {
+            "number": "152",
+            "days": [
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "reservation": "unreserved",
+            "services": [
+                "snack",
+                "beverages"
+            ],
+            "conditions": [
+                "no-checked-baggage"
+            ],
+            "excludedDays": [
+                "09-05",
+                "10-10"
+            ],
+            "timetable": [
+                {
+                    "name": "Yarmouth, N.S.",
+                    "arrival": "07:00:00-04:00"
+                },
+                {
+                    "name": "Ohio",
+                    "departure": "07:09:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Brazil Lake",
+                    "departure": "07:17:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Hectanooga",
+                    "departure": "07:26:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Meteghan",
+                    "departure": "07:37:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Saulnierville",
+                    "departure": "07:41:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Church Point",
+                    "departure": "07:46:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Weymouth",
+                    "departure": "07:58:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "North Range",
+                    "departure": "08:12:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Digby",
+                    "departure": "08:26:00-04:00"
+                },
+                {
+                    "name": "Bear River",
+                    "departure": "08:40:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Cornwallis",
+                    "departure": "08:49:00-04:00",
+                    "conditions": [
+                        "stops-on-signal",
+                        "armed-forces-only"
+                    ]
+                },
+                {
+                    "name": "Clementsport",
+                    "departure": "08:53:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Annapolis Royal",
+                    "departure": "09:05:00-04:00"
+                },
+                {
+                    "name": "Round Hill",
+                    "departure": "09:13:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Bridgetown",
+                    "departure": "09:24:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Lawrencetown",
+                    "departure": "09:34:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Middleton",
+                    "departure": "09:42:00-04:00"
+                },
+                {
+                    "name": "Kingston (Greenwood)",
+                    "departure": "09:52:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Aylesford",
+                    "departure": "10:01:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Berwick",
+                    "departure": "10:08:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Waterville",
+                    "departure": "10:12:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Kentville",
+                    "arrival": "10:25:00-04:00",
+                    "departure": "10:30:00-04:00"
+                },
+                {
+                    "name": "Port Williams",
+                    "departure": "10:38:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Wolfville",
+                    "departure": "10:41:00-04:00"
+                },
+                {
+                    "name": "Grand'Pré",
+                    "departure": "10:45:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Avonport",
+                    "departure": "10:50:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Hantsport",
+                    "departure": "10:56:00-04:00"
+                },
+                {
+                    "name": "Windsor",
+                    "departure": "11:06:00-04:00"
+                },
+                {
+                    "name": "Newport",
+                    "departure": "11:13:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Ellershouse",
+                    "departure": "11:17:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Mount Uniacke",
+                    "departure": "11:32:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "South Uniacke",
+                    "departure": "11:36:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Beaver Bank",
+                    "departure": "11:46:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Windsor Junction",
+                    "departure": "11:55:00-04:00"
+                },
+                {
+                    "name": "Bedford",
+                    "departure": "12:03:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Rockingham",
+                    "departure": "12:09:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Armdale",
+                    "departure": "12:13:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Halifax, N.S.",
+                    "departure": "12:20:00-04:00"
+                }
+            ]
+        },
+        {
+            "number": "154",
+            "days": [
+                "sunday"
+            ],
+            "reservation": "unreserved",
+            "services": [
+                "snack",
+                "beverages"
+            ],
+            "conditions": [
+                "no-checked-baggage"
+            ],
+            "includedDays": [
+                "09-05",
+                "10-10"
+            ],
+            "timetable": [
+                {
+                    "name": "Yarmouth, N.S.",
+                    "arrival": "13:00:00-04:00"
+                },
+                {
+                    "name": "Ohio",
+                    "departure": "13:09:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Brazil Lake",
+                    "departure": "13:17:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Hectanooga",
+                    "departure": "13:26:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Meteghan",
+                    "departure": "13:37:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Saulnierville",
+                    "departure": "13:41:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Church Point",
+                    "departure": "13:46:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Weymouth",
+                    "departure": "13:58:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "North Range",
+                    "departure": "14:12:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Digby",
+                    "departure": "14:26:00-04:00"
+                },
+                {
+                    "name": "Bear River",
+                    "departure": "14:40:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Cornwallis",
+                    "departure": "14:49:00-04:00",
+                    "conditions": [
+                        "stops-on-signal",
+                        "armed-forces-only"
+                    ]
+                },
+                {
+                    "name": "Clementsport",
+                    "departure": "14:53:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Annapolis Royal",
+                    "departure": "15:05:00-04:00"
+                },
+                {
+                    "name": "Round Hill",
+                    "departure": "15:13:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Bridgetown",
+                    "departure": "15:24:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Lawrencetown",
+                    "departure": "15:34:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Middleton",
+                    "departure": "15:42:00-04:00"
+                },
+                {
+                    "name": "Kingston (Greenwood)",
+                    "departure": "15:52:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Aylesford",
+                    "departure": "16:01:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Berwick",
+                    "departure": "16:08:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Waterville",
+                    "departure": "16:12:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Kentville",
+                    "arrival": "16:25:00-04:00",
+                    "departure": "16:30:00-04:00"
+                },
+                {
+                    "name": "Port Williams",
+                    "departure": "16:38:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Wolfville",
+                    "departure": "16:41:00-04:00"
+                },
+                {
+                    "name": "Grand'Pré",
+                    "departure": "16:45:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Avonport",
+                    "departure": "16:50:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Hantsport",
+                    "departure": "16:56:00-04:00"
+                },
+                {
+                    "name": "Windsor",
+                    "departure": "17:06:00-04:00"
+                },
+                {
+                    "name": "Newport",
+                    "departure": "17:13:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Ellershouse",
+                    "departure": "17:17:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Mount Uniacke",
+                    "departure": "17:32:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "South Uniacke",
+                    "departure": "17:36:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Beaver Bank",
+                    "departure": "17:46:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Windsor Junction",
+                    "departure": "17:55:00-04:00"
+                },
+                {
+                    "name": "Bedford",
+                    "departure": "18:03:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Rockingham",
+                    "departure": "18:09:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Armdale",
+                    "departure": "18:13:00-04:00",
+                    "conditions": [
+                        "stops-on-signal"
+                    ]
+                },
+                {
+                    "name": "Halifax, N.S.",
+                    "departure": "18:20:00-04:00"
+                }
+            ]
+        }
+    ]
+}
