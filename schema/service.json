@@ -1,0 +1,189 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://trnglina.org/via83/service.schema.json",
+    "title": "Service",
+    "description": "A service as found in Via Rail's 1983 Summer/Fall System Timetable",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description": "The unique name of the service",
+            "type": "string"
+        },
+        "type": {
+            "description": "The type of service",
+            "type": "string",
+            "enum": [
+                "bus",
+                "train",
+                "ferry"
+            ]
+        },
+        "operator": {
+            "description": "The operating company of the service",
+            "type": "string"
+        },
+        "trains": {
+            "description": "The trains that operate this service",
+            "type": "array",
+            "items": {
+                "description": "A trains that runs a train service",
+                "type": "object",
+                "properties": {
+                    "number": {
+                        "description": "The train number",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "The name of this train (if applicable)",
+                        "type": "string"
+                    },
+                    "days": {
+                        "description": "On which days of the week this train runs",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "monday",
+                                "tuesday",
+                                "wednesday",
+                                "thursday",
+                                "friday",
+                                "saturday",
+                                "sunday"
+                            ]
+                        }
+                    },
+                    "excludedDays": {
+                        "description": "Additional days on which this train will not run (if applicable)",
+                        "type": "array",
+                        "items": {
+                            "description": "A string of form XX-YY, where XX is the month, and YY is the day. For example: February 12 is 02-12",
+                            "type": "string"
+                        }
+                    },
+                    "includedDays": {
+                        "description": "Additional days on which this train will run (if applicable)",
+                        "type": "array",
+                        "items": {
+                            "description": "A string of form XX-YY, where XX is the month, and YY is the day. For example: February 12 is 02-12",
+                            "type": "string"
+                        }
+                    },
+                    "reservation": {
+                        "description": "Reservation requirements for coach seating",
+                        "type": "string",
+                        "enum": [
+                            "reserved",
+                            "long-distance-reserved",
+                            "unreserved"
+                        ]
+                    },
+                    "accommodations": {
+                        "description": "Overnight accommodations (if applicable)",
+                        "type": "string",
+                        "enum": [
+                            "sleeping-cars",
+                            "dayniters"
+                        ]
+                    },
+                    "services": {
+                        "description": "The types of food/beverage/snack services available (if applicable)",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "food",
+                                "snack",
+                                "beverages"
+                            ]
+                        }
+                    },
+                    "conditions": {
+                        "description": "Additional conditions that apply to this train (if applicable)",
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "no-checked-baggage",
+                                "baggage-restrictions"
+                            ]
+                        }
+                    },
+                    "timetable": {
+                        "description": "The timetable for this train operating this service",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "description": "The name of the station",
+                                    "type": "string"
+                                },
+                                "arrival": {
+                                    "description": "The time of arrival (if terminating station)",
+                                    "type": "string",
+                                    "format": "time"
+                                },
+                                "departure": {
+                                    "description": "The departure time of the train (if not terminating station)",
+                                    "type": "string",
+                                    "format": "time"
+                                },
+                                "conditions": {
+                                    "description": "Additional special conditions affecting this service and station (if applicable)",
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string",
+                                        "enum": [
+                                            "stops-on-signal",
+                                            "armed-forces-only",
+                                            "no-checked-baggage"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "name"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "number",
+                    "days",
+                    "reservation",
+                    "timetable"
+                ]
+            }
+        },
+        "stations": {
+            "description": "The stations served by this service",
+            "type": "array",
+            "items": {
+                "description": "A station",
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "The unique name of the station",
+                        "type": "string"
+                    },
+                    "distance": {
+                        "description": "The distance from the origin station on this service (in kilometers)",
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "name",
+                    "distance"
+                ]
+            }
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "type",
+        "operator",
+        "stations"
+    ]
+}
